@@ -1,0 +1,119 @@
+/* right corner style */
+.navigation-wrapper > .right-corner {
+    display: flex;
+    align-items: center;
+}
+.navigation-wrapper > .right-corner > .email { 
+     color: lightcoral;
+     padding: 0px;
+     display: grid;
+     grid-template-columns: 1fr;
+     grid-gap: -10px;
+     font-family: 'Josefin Sans', sans-serif;
+     font-family: 'Space Mono', monospace;
+}
+.navigation-wrapper > .right-corner >.envelope-icon {
+    margin-bottom: 0px;
+}
+.navigation-wrapper > .right-corner >.envelope-icon a {
+    font-size: 2em;
+}
+.navigation-wrapper { 
+     height: 210px;
+     background-color: aquamarine;
+     color:burlywood;
+     /* flexbox container */
+     display:flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 10px 10px 10px 10px;
+     border-radius: 25px;
+}
+/* left corner styles */
+.navigation-wrapper > .left-corner {
+    display: flex;
+    align-items: center;
+}
+.navigation-wrapper > .left-corner > .map-icon {
+    margin-bottom: 0px;
+}
+.navigation-wrapper >.left-corner >.map-icon i {
+    font-size: 2em; 
+}
+.navigation-wrapper > .left-corner > .address-detail{
+    color: lightcoral;
+    font-style: unset;
+     display: grid;
+     grid-template-columns: 1fr;
+     grid-gap: -10px;
+}
+.title{
+    color: blue;
+    display: flex;
+    justify-content: center;
+    font-family: 'Amatic SC', cursive;
+}
+body{
+    margin: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Space Mono', monospace;
+}
+.navigation-wrapper > .center-column {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 40px;
+    width: 150px;
+}
+.navigation-wrapper > .center-column > .background-image {
+    display: flex;
+    justify-content: center;
+}
+.navigation-wrapper > .center-column > .background-image img{
+    width: 216px;
+    height: 100%;
+}
+/*
+.navigation-wrapper > .link-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation-wrapper > .link-wrapper > .link {
+    width: 70px;
+    text-align: center;
+}
+
+.navigation-wrapper > .link-wrapper > .link a{
+    font-family: "uuntu Condensed", san-serif;
+    color: #cbcbcb;
+    text-decoration: none;
+    transition: 0.5s;
+}
+*/
+
+.link-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.link-wrapper > .link {
+    width: 70px;
+    text-align: center;
+}
+
+.link-wrapper > .link a{
+
+    font-family: "Ubuntu Condensed", sans-serif ;
+    text-decoration: none;
+    color: #cbcbcb;
+    transition: 0.5s; 
+
+}
+
+.navigation-wrapper > .link-wrapper > .link a:hover {
+    color: #cea135;
+    letter-spacing: 2px;
+}
