@@ -1,0 +1,79 @@
+/* Footer styles */
+.footer {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-gap:20px;
+    height: 190px;
+    background-color: #11122b;
+    color: #cbcbcb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 400px;
+    margin: -4px;
+}
+
+.footer > .bottom-phone-hours a {
+    width: 70px;
+    text-align: center;
+}
+
+.footer > .bottom-phone-hours > .bottom-hours {
+    color: #cea135;
+    font-size: 0.8em;
+}
+
+.footer > .bottom-phone-hours {
+    font-family: "Ubuntu Condensed", sans-serif;
+}
+
+ .footer > .bottom-logo img{
+    display: flex;
+    justify-content: center;
+    filter: opacity(50%);
+ }
+
+ .footer > .bottom-logo {
+    margin-top: 15px;
+ }
+
+.footer > .copy-right {
+    font-family: "Ubuntu Condensed", sans-serif;
+    color: #858585;
+    font-size: 0.7em;
+    margin-bottom: 42px;
+    
+}
+
+.footer > .bottom-phone-hours span {
+    margin-left: 10px;
+    margin-right: 10px;
+    font: size 1em;
+    letter-spacing: 2px;
+}
+
+
+.footer > .nav-link {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 400px;
+}
+
+.footer > .contact-icons {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer > .contact-icons a {
+    font-size: 1.5em;
+    transition: 0.5s;
+    color: #cbcbcb;
+}
+
+.footer > .contact-icons a:hover {
+    color: #cea135;
+}

@@ -1,0 +1,30 @@
+body {
+    margin:0px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto Slab', serif;
+}
+
+.nav-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+ .nav-link a {
+    font-family: "Ubuntu Condensed", sans-serif;
+    color: #CBCBCB;
+    text-decoration: none;
+    transition: 0.5s;
+    width: 70px;
+    text-align: center;
+} 
+
+.nav-link a:hover {
+    color: #cea135;
+    letter-spacing: 2px;
+}
+
